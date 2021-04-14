@@ -1,0 +1,74 @@
+/****************************/
+/***CSS GENERAL DE LA PAGE***/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+/*********************/
+/***CSS IMG + QUOTE***/
+
+img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.random-quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  padding: 1em;
+  width: 400px;
+  line-height: 50px;
+  box-shadow: black 0px 0px 11px 10px;
+}
+
+/****************************/
+/***CSS POS DES 3 BOUTONS****/
+
+.random-quoteClick {
+  top: 25%;
+  left: 25%;
+}
+
+.random-picClick {
+  top: 75%;
+  left: 25%;
+}
+
+.random-BothClick {
+  top: 50%;
+  left: 25%;
+}
+
+.PdeClick {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/*********************************************************/
+/***CSS ESTHETIQUE DES BOUTONS CLICK PICTURE/QUOTE/BOTH***/
+
+.BtndeClick {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 15px;
+  height: 100px;
+  width: 100px;
+  box-shadow: white 0px 0px 11px 10px;
+}
